@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente Abrir esse site em varios dispositivos diferentes</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img-m.png" type="image/png">
+        <img src="imagens/img-g.png" alt="img-g">   
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Agora vamos aprender a reproduzir audios em HTML5</p>
+    <audio preload="metadata" controls autoplay>
+        <source src="midea/Happy Mistake - RKVC.mp3" type="audio/mpeg">
+        <source src="midea/Happy Mistake - RKVC.ogg" type="audio/ogg">
+        <source src="midea/Happy Mistake - RKVC.wav" type="audio/wav">
+    </audio> 
+    
+</body>
+</html>
