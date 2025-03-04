@@ -11,7 +11,6 @@
         }
 
         table{
-            border: 2px solid black;
             border-collapse: collapse;
             width: 500px;
         }
@@ -24,6 +23,10 @@
         th, td{
             border: 1px solid black;
             padding: 10px;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
         }
 
         .num{
@@ -71,6 +74,10 @@
             <tr>
                 <td  class="alinha">Rio de Janeiro</td>
                 <td  class="num">19 264 943</td>
+            </tr>
+            <tr>
+                <td  class="alinha">Bahia</td>
+                <td  class="num">10 357 158</td>
             </tr>
         </tbody>
 
